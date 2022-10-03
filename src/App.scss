@@ -47,9 +47,25 @@ ul li .underline:hover {
 .hero-section {
   .video-sec {
     video {
-      border-radius: 24% 2% 1% 0% / 29% 10% 10% 10%;
-      height: 500px;
+      border-radius: 23% 0% 0% 0% / 31% 44% 0% 0% ;
+      height: auto;
+      width: 100%;
     }
+    // @media only screen and (max-width: 600px) {
+    //   video {
+    //     max-width: 210px;
+    //     margin-top: 20px;
+    //   }
+    .hero-text{
+      margin-left: 5px;
+    }
+
+    // }
+
+   
+  }
+  .hero-text{
+    margin-left: 60px !important;
   }
 }
 
@@ -95,6 +111,13 @@ ul li .underline:hover {
       margin-bottom: 0px;
     }
   }
+
+//     @media only screen and (max-width: 600px) {
+//       .property-flex{
+//         flex-flow: row wrap !important;
+//       }
+ 
+// }
 }
 
 

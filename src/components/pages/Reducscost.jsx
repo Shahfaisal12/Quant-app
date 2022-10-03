@@ -6,14 +6,13 @@ const Reducscost = () => {
       <div className="container">
         <div className="row">
           <div className="reducts-header text-center">
-            <h2 class="fw-bold display-5" style={{ color: "#43403E" }}>
+            <h2 className="fw-bold display-5" style={{ color: "#43403E" }}>
               Create value, reduce
               <br />
               costs, mitigate risk
             </h2>
           </div>
-          <div class="d-flex justify-content-between">
-            <div class="p-2">
+            <div className="col-md-4 col-sm-4 col-12">
                 <div className="text-list">
                     <ul>
                         <li>
@@ -31,7 +30,7 @@ const Reducscost = () => {
                     </ul>
                 </div>
             </div>
-            <div class="p-2 d-flex align-items-center">
+            <div className="col-md-4 col-sm-4 col-12 d-flex align-items-center">
               <svg
                 width="248"
                 height="284"
@@ -65,7 +64,7 @@ const Reducscost = () => {
                 ></path>
               </svg>
             </div>
-            <div class="p-2">
+            <div class="col-md-4 col-sm-4 col-12">
                 <div className="text-list">
                     <ul>
                         <li>
@@ -83,7 +82,6 @@ const Reducscost = () => {
                     </ul>
                 </div>
                 </div>
-          </div>
         </div>
       </div>
     </div>

@@ -6,8 +6,8 @@ const Flowsection = () => {
   return (
     <div className="flowsection py-5">
         <div className="container">
-        <div class="d-flex justify-content-center">
-      <div class="onhover p-2 flex-fill  text-center">
+        <div class="row">
+      <div class="onhover col-md-3 col-sm-3 col-12 text-center">
         <h6>Financial institutions</h6>
         <p className="mb-0">
           Banks, investment firms, and other financial institutions, are
@@ -16,7 +16,7 @@ const Flowsection = () => {
         </p>
         <CgArrowLongRight />
       </div>
-      <div class="onhover p-2 flex-fill  text-center">
+      <div class="onhover col-md-3 col-sm-3 col-12 text-center">
         <h6>Enterprises</h6>
         <p className="mb-0">
           Blockchain enables companies operating in multiple markets to exchange
@@ -26,7 +26,7 @@ const Flowsection = () => {
         </p>
         <CgArrowLongRight />
       </div>
-      <div class="onhover p-2 flex-fill  text-center">
+      <div class="onhover col-md-3 col-sm-3 col-12 text-center">
         <h6>Partners</h6>
         <p className="mb-0">
           Whether you’re a platform provider, an independent software vendor, or
@@ -36,7 +36,7 @@ const Flowsection = () => {
         </p>
         <CgArrowLongRight />
       </div>
-      <div class="onhover p-2 flex-fill  text-center">
+      <div class="onhover col-md-3 col-sm-3 col-12 text-center">
         <h6>Developers</h6>
         <p className="mb-0">
           Are you one of the few developers in the world who understands all the
