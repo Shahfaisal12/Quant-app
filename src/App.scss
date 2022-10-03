@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,100&display=swap");
+
+h1 {
+  font-size: 5.9vw;
+  color: #43403E;
+}
+.h-50vh{
+  height: 50vh;
+}
+
+.btn-outline-danger{
+  border-radius:51% 20% 0% 20% / 0% 37% 10% 42% !important;
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+  &:hover {
+    background-color: #DF3929 !important;
+    color: #FFFFFF !important;
+  }
+
+}
+
+.navbar {
+  background-color: #e6e7e8;
+  // transition: background-color .3s ease-in-out;
+  ul li a {
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #939191;
+    font-size: 14px;
+  }
+}
+ul li .underline:hover {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 6px;
+    left: 10px;
+    width: 28px;
+    right: 10px;
+    background-color: #f05a22 !important;
+    height: 1px;
+    border-radius: 1.5px;
+  }
+}
+
+.hero-section {
+  .video-sec {
+    video {
+      border-radius: 24% 2% 1% 0% / 29% 10% 10% 10%;
+      height: 500px;
+    }
+  }
+}
+
+
+/// Empowered
+.empowered{
+  background-image: url('https://quant.network/assets/uploads/2022/03/london-areal.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/// Flow SEction
+
+.flowsection{
+  .onhover{
+    cursor: pointer;
+    & :hover{
+      color: #DF3929;
+    }
+    h6{
+      font-weight: bold;
+    }
+    
+  }
+}
+
+
+/// Reductscost Section
+
+.reductscost-sec{
+  ul li{
+    list-style: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 20px;
+
+    &:hover{
+      border-left: 2px solid #f15a22;
+    }
+    p{
+      margin-bottom: 0px;
+    }
+  }
+}
+
+
+
+
+/// Explorefeature sec
+.explorefeature-sec{
+  
+  .img-city{
+    background-image: url('https://quant.network/assets/uploads/2022/09/CITY-a.m_website.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  .card{
+    border-radius:49% 0% 0% 11% / 0% 37% 10% 22%  ;
+  }
+  
+  }
+  .card{
+    background-color: #FFFFFF;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    height: 220px;
+
+    p{
+      font-size: 12px;
+    }
+
+    .badge{
+      background-color: #e2b8a8;
+      color: #d72d2f;
+      margin: 4px;
+      font-size: 10px;
+    }
+  }
+}
+
+// Fooetr
+
+.footer-section {
+  background-color: #f6f6f6;
+  .footer-nav {
+    ul li {
+      list-style: none;
+      font-size: 12px;
+      line-height: 1.8em;
+    }
+    .headering {
+      h6 {
+        // font-size: 15rem;
+        font-weight: bold;
+      }
+    }
+  }
+  .footer-section-below {
+    border-top: 1px solid #939191;
+  }
+}
+
+.footer-logo p {
+  font-size: 10px;
+}
+.footer-menu a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #000000;
+}
