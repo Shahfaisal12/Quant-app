@@ -30,7 +30,7 @@ const Reducscost = () => {
                     </ul>
                 </div>
             </div>
-            <div className="col-md-4 col-sm-4 col-12 d-flex align-items-center">
+            <div className="col-md-4 col-sm-4 col-12 d-flex align-items-center justify-content-center">
               <svg
                 width="248"
                 height="284"
