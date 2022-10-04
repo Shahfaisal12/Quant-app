@@ -19,7 +19,8 @@ h1 {
 
 }
 
-// Header 
+
+/////////////////////////////  Header / Nabvbar ///////////////////////////////////////
 
 .navbar {
   background-color: #e6e7e8;
@@ -45,24 +46,7 @@ ul li .underline:hover {
   }
 }
 
-.hero-section {
-  .video-sec {
-    video {
-      border-radius: 23% 0% 0% 0% / 31% 44% 0% 0% ;
-      height: auto;
-      width: 100%;
-    }
-    .hero-text{
-      margin-left: 5px;
-    }
-
-   
-  }
-  .hero-text{
-    margin-left: 60px !important;
-  }
-}
-////////////////////////////////////////////////////////////////////
+/////////////////////////////  Navbar  On Hover  ///////////////////////////////////////
 
 
 .nav-item{
@@ -103,15 +87,34 @@ ul li .underline:hover {
 .nav-item:hover .dropdown-content {display: block;}
 
 
-
-
-
-
-
 /////////////////////////////////////////////////////////////////////
 
 
-/// Empowered
+
+
+/////////////////////////////  Hero section  ///////////////////////////////////////
+
+.hero-section {
+  .video-sec {
+    video {
+      border-radius: 23% 0% 0% 0% / 31% 44% 0% 0% ;
+      height: auto;
+      width: 100%;
+    }
+    .hero-text{
+      margin-left: 5px;
+    }
+
+   
+  }
+  .hero-text{
+    margin-left: 60px !important;
+  }
+}
+
+
+
+///////////////////////////// Empolyed section  ///////////////////////////////////////
 .empowered{
   background-image: url('https://quant.network/assets/uploads/2022/03/london-areal.jpg');
   background-position: center;
@@ -120,7 +123,8 @@ ul li .underline:hover {
 }
 
 
-/// Flow SEction
+
+/////////////////////////////  Flow section  ///////////////////////////////////////
 
 .flowsection{
   .onhover{
@@ -136,7 +140,8 @@ ul li .underline:hover {
 }
 
 
-/// Reductscost Section
+
+///////////////////////////// Reducts section ///////////////////////////////////////
 
 .reductscost-sec{
   ul li{
@@ -157,7 +162,8 @@ ul li .underline:hover {
 
 
 
-/// Explorefeature sec
+
+/////////////////////////////  Explore Feature section  ///////////////////////////////////////
 .explorefeature-sec{
   
   .img-city{
@@ -190,8 +196,9 @@ ul li .underline:hover {
   }
 }
 
-// Fooetr
 
+
+/////////////////////////////  Footer Section  ///////////////////////////////////////
 .footer-section {
   background-color: #f6f6f6;
   .footer-nav {
