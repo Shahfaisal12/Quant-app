@@ -2,23 +2,21 @@
 
 h1 {
   font-size: 5.9vw;
-  color: #43403E;
+  color: #43403e;
 }
-.h-50vh{
+.h-50vh {
   height: 50vh;
 }
 
-.btn-outline-danger{
-  border-radius:51% 20% 0% 20% / 0% 37% 10% 42% !important;
-  background-color: #FFFFFF !important;
+.btn-outline-danger {
+  border-radius: 51% 20% 0% 20% / 0% 37% 10% 42% !important;
+  background-color: #ffffff !important;
   color: #000000 !important;
   &:hover {
-    background-color: #DF3929 !important;
-    color: #FFFFFF !important;
+    background-color: #df3929 !important;
+    color: #ffffff !important;
   }
-
 }
-
 
 /////////////////////////////  Header / Nabvbar ///////////////////////////////////////
 
@@ -48,8 +46,7 @@ ul li .underline:hover {
 
 /////////////////////////////  Navbar  On Hover  ///////////////////////////////////////
 
-
-.nav-item{
+.nav-item {
   position: relative;
   display: inline-block;
 }
@@ -57,137 +54,120 @@ ul li .underline:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #FFFFFF;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   padding: 20px;
-  width: 370px;;
+  width: 370px;
+  right: 0 !important;
 }
 
-.dropdown-list{
-  
+.dropdown-list {
   ul li {
     list-style: none;
     border-radius: 10rem;
     padding: 5px 10px 5px 10px;
     margin: 5px;
-    &:hover{
-    background-color: #F8F8F8;
-    a{
-      color: #F15A22 !important;
-    }
+    &:hover {
+      background-color: #f8f8f8;
+      a {
+        color: #f15a22 !important;
+      }
     }
   }
-  ul li a{
+  ul li a {
     text-decoration: none;
     font-size: 10px;
   }
 }
 
-.nav-item:hover .dropdown-content {display: block;}
-
+.nav-item:hover .dropdown-content {
+  display: block;
+}
 
 /////////////////////////////////////////////////////////////////////
-
-
-
 
 /////////////////////////////  Hero section  ///////////////////////////////////////
 
 .hero-section {
   .video-sec {
     video {
-      border-radius: 23% 0% 0% 0% / 31% 44% 0% 0% ;
+      border-radius: 23% 0% 0% 0% / 31% 44% 0% 0%;
       height: auto;
       width: 100%;
     }
-    .hero-text{
+    .hero-text {
       margin-left: 5px;
     }
-
-   
   }
-  .hero-text{
+  .hero-text {
     margin-left: 60px !important;
   }
 }
 
-
-
 ///////////////////////////// Empolyed section  ///////////////////////////////////////
-.empowered{
-  background-image: url('https://quant.network/assets/uploads/2022/03/london-areal.jpg');
+.empowered {
+  background-image: url("https://quant.network/assets/uploads/2022/03/london-areal.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
-
 /////////////////////////////  Flow section  ///////////////////////////////////////
 
-.flowsection{
-  .onhover{
+.flowsection {
+  .onhover {
     cursor: pointer;
-    & :hover{
-      color: #DF3929;
+    & :hover {
+      color: #df3929;
     }
-    h6{
+    h6 {
       font-weight: bold;
     }
-    
   }
 }
 
-
-
 ///////////////////////////// Reducts section ///////////////////////////////////////
 
-.reductscost-sec{
-  ul li{
+.reductscost-sec {
+  ul li {
     list-style: none;
     cursor: pointer;
     padding: 5px;
     margin-bottom: 20px;
 
-    &:hover{
+    &:hover {
       border-left: 2px solid #f15a22;
     }
-    p{
+    p {
       margin-bottom: 0px;
     }
   }
 }
 
-
-
-
-
 /////////////////////////////  Explore Feature section  ///////////////////////////////////////
-.explorefeature-sec{
-  
-  .img-city{
-    background-image: url('https://quant.network/assets/uploads/2022/09/CITY-a.m_website.png');
+.explorefeature-sec {
+  .img-city {
+    background-image: url("https://quant.network/assets/uploads/2022/09/CITY-a.m_website.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-  .card{
-    border-radius:49% 0% 0% 11% / 0% 37% 10% 22%  ;
+
+    .card {
+      border-radius: 49% 0% 0% 11% / 0% 37% 10% 22%;
+    }
   }
-  
-  }
-  .card{
-    background-color: #FFFFFF;
+  .card {
+    background-color: #ffffff;
     border: 0px;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
     height: 220px;
 
-    p{
+    p {
       font-size: 12px;
     }
 
-    .badge{
+    .badge {
       background-color: #e2b8a8;
       color: #d72d2f;
       margin: 4px;
@@ -195,8 +175,6 @@ ul li .underline:hover {
     }
   }
 }
-
-
 
 /////////////////////////////  Footer Section  ///////////////////////////////////////
 .footer-section {

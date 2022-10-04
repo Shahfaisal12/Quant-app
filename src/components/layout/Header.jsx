@@ -137,7 +137,7 @@ const Header = () => {
                 <a className="nav-link" href="/">
                   Why
                 </a>
-                {/* <div className="dropdown-content">
+                <div className="dropdown-content">
                   <h6 className="fw-bold mb-3">Who we serve</h6>
                   <div className="row">
                     <div className="col-md-4">
@@ -163,13 +163,13 @@ const Header = () => {
                       </div>
                     </div>
                   </div>
-                </div> */}
+                </div>
               </li>
               <li className="nav-item underline">
                 <a className="nav-link" href="/">
                   About
                 </a>
-                {/* <div className="dropdown-content">
+                <div className="dropdown-content">
                   <h6 className="fw-bold mb-3">Who we serve</h6>
                   <div className="row">
                     <div className="col-md-4">
@@ -195,13 +195,13 @@ const Header = () => {
                       </div>
                     </div>
                   </div>
-                </div> */}
+                </div>
               </li>
               <li className="nav-item underline">
                 <a className="nav-link" href="/">
                   Sign In
                 </a>
-                {/* <div className="dropdown-content">
+                <div className="dropdown-content">
                   <h6 className="fw-bold mb-3">Who we serve</h6>
                   <div className="row">
                     <div className="col-md-4">
@@ -227,13 +227,13 @@ const Header = () => {
                       </div>
                     </div>
                   </div>
-                </div> */}
+                </div>
               </li>
               <li className="nav-item underline">
                 <a className="nav-link" href="/">
                   <AiOutlineSearch />
                 </a>
-                {/* <div className="dropdown-content">
+                <div className="dropdown-content">
                   <h6 className="fw-bold mb-3">Who we serve</h6>
                   <div className="row">
                     <div className="col-md-4">
@@ -259,7 +259,7 @@ const Header = () => {
                       </div>
                     </div>
                   </div>
-                </div> */}
+                </div>
               </li>
             </ul>
           </div>
