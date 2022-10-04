@@ -12,7 +12,7 @@ const Blockchain = () => {
                 </div>
                 <div className="col-md-6 d-flex align-items-center">
                     <div className="blockchain-text">
-                        <h1 className="fw-bold display-3" data-aos="fade-up-left">Unlocking the power of blockchain for everyone</h1>
+                        <h1 className="fw-bold display-3" data-aos="fade-up-right">Unlocking the power of blockchain for everyone</h1>
                         <p  data-aos="zoom-in-left">We deliver interoperable ecosystems and real-world solutions that lower costs, enable new business, and mitigate risk.</p>
 
 <button type="button" class="btn btn-outline-danger" data-aos="flip-left">Let's talk</button>

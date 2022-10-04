@@ -16,7 +16,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="col-md-6 col-sm-6 col-12 order-1 order-sm-2">
+        <div className="col-md-6 col-sm-6 col-12 order-1 order-sm-2" style={{paddingRight:'0px'}}>
           <div className="video-sec mb-4 mb-md-0">
             <video
               src="https://player.vimeo.com/progressive_redirect/playback/704523096/rendition/720p/file.mp4?loc=external&oauth2_token_id=1621192039&signature=5f0f60cc8292a19c862593995b6633c4055eaf9aa0189d092b2e2d4a4194abda"
