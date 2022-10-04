@@ -6,7 +6,7 @@ const Explorefeature = () => {
     <div className="explorefeature-sec">
       <div className="container">
         <div className="row">
-          <div className="heading text-center">
+          <div className="heading text-center" data-aos="fade-right">
             <h1 className="fw-bold fs-1">Explore the future</h1>
             <p>
               Much of the financial world’s digital future

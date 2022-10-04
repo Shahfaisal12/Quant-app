@@ -6,12 +6,12 @@ const Priopbability = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <div className="img-blockchain">
+            <div className="img-blockchain"  data-aos="fade-down-right">
               <img src="assests/box.svg" className="img-fluid" alt="" />
             </div>
           </div>
           <div className="col-md-6 d-flex align-items-center">
-            <div className="blockchain-text">
+            <div className="blockchain-text"  data-aos="fade-up-left">
               <h1 className="fw-bold display-5">
                 Interoperability <br />
                 solved
