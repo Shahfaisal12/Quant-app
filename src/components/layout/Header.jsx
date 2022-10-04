@@ -1,6 +1,7 @@
 import React from "react";
 import {AiOutlineSearch} from "react-icons/ai"
 import {HiOutlineArrowRight} from 'react-icons/hi'
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -134,9 +135,9 @@ const Header = () => {
                 </div>
               </li>
               <li className="nav-item underline">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/why">
                   Why
-                </a>
+                </Link>
                 <div className="dropdown-content">
                   <h6 className="fw-bold mb-3">Who we serve</h6>
                   <div className="row">

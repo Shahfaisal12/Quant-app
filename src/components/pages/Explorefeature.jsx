@@ -1,5 +1,6 @@
 import React from "react";
 import {CgArrowLongRight} from 'react-icons/cg'
+import { Link } from "react-router-dom";
 
 const Explorefeature = () => {
   return (
@@ -68,7 +69,7 @@ const Explorefeature = () => {
               </div>
           </div>
           <div className="">
-            <a href="/" style={{float:'right', textDecoration:'none', color:'black'}}>More <CgArrowLongRight /></a>
+            <Link to='/why' style={{float:'right', textDecoration:'none', color:'black'}}>More <CgArrowLongRight /></Link>
           </div>
         </div>
       </div>

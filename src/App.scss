@@ -49,6 +49,9 @@ ul li .underline:hover {
 .nav-item {
   position: relative;
   display: inline-block;
+  &:hover .dropdown-content {
+    display: block;
+  }
 }
 
 .dropdown-content {
@@ -81,9 +84,7 @@ ul li .underline:hover {
   }
 }
 
-.nav-item:hover .dropdown-content {
-  display: block;
-}
+// .nav-item
 
 /////////////////////////////////////////////////////////////////////
 
@@ -204,4 +205,87 @@ ul li .underline:hover {
   font-size: 14px;
   text-decoration: none;
   color: #000000;
+}
+
+///////////////////////////// Why Digital asserts  ///////////////////////////////////////
+
+.why-section {
+  background-color: #f6f6f6;
+  input {
+    border: 2px solid #f15a22;
+  }
+
+  .card {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    border: 0;
+  }
+  // input:focus {
+  //   outline-color: #F15A22 !important;
+  // }
+  .img-digital-asserts {
+    .img-digital img {
+      border-radius: 23% 0% 0% 0% / 31% 44% 0% 0%;
+    }
+    .card-ara {
+      right: 0;
+      top: 30%;
+
+      .card {
+        border-radius: 49% 0% 0% 11% / 0% 37% 10% 22%;
+        background-color: #ffffff;
+        border: 0px;
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+        height: 220px;
+
+        p {
+          font-size: 12px;
+        }
+
+        .badge {
+          background-color: #e2b8a8;
+          color: #d72d2f;
+          margin: 4px;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+
+//////////////////////
+
+.menu-nav {
+  .tab-content {
+    background-color: #f6f6f6;
+    .badge {
+      background-color: #e2b8a8;
+      color: #d72d2f;
+      margin: 4px;
+      font-size: 10px;
+    }
+    .card{
+      border-radius: 49% 0% 0% 11%/0% 37% 10% 22%;
+    background-color: #ffffff;
+    border: 0px;
+    box-shadow: rgb(0 0 0 / 9%) 0px 3px 12px;
+    height: 220px;
+    }
+  }
+
+  .react-tabs__tab-list {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    .react-tabs__tab {
+      list-style: none !important;
+      font-weight: bold;
+      font-size: 1.5rem;
+      cursor: pointer;
+      &:hover {
+        color: #f15a22;
+      }
+    }
+  }
+}
+
+.react-tabs__tab-list{
+  margin-bottom: 0px;
 }
