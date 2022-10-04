@@ -15,7 +15,7 @@ const Blockchain = () => {
                         <h1 className="fw-bold display-3" data-aos="fade-up-left">Unlocking the power of blockchain for everyone</h1>
                         <p  data-aos="zoom-in-left">We deliver interoperable ecosystems and real-world solutions that lower costs, enable new business, and mitigate risk.</p>
 
-<button type="button" class="btn btn-outline-danger" data-aos="flip-right">Let's talk</button>
+<button type="button" class="btn btn-outline-danger" data-aos="flip-left">Let's talk</button>
                     </div>
                 </div>
             </div>

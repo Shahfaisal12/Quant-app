@@ -11,7 +11,7 @@ const Priopbability = () => {
             </div>
           </div>
           <div className="col-md-6 d-flex align-items-center">
-            <div className="blockchain-text"  data-aos="fade-up-left">
+            <div className="blockchain-text"  data-aos="fade-up-right">
               <h1 className="fw-bold display-5">
                 Interoperability <br />
                 solved

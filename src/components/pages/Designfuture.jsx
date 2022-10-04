@@ -26,7 +26,7 @@ const Designfuture = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <div className="img-blockchain"   data-aos="fade-down-left">
+            <div className="img-blockchain"   data-aos="fade-down-right">
               <img src="assests/design-door.svg" className="img-fluid" alt="" />
             </div>
           </div>
