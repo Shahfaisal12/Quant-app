@@ -68,7 +68,7 @@ const Explorefeature = () => {
               </div>
           </div>
           <div className="">
-            <p style={{float:'right'}}>More <CgArrowLongRight /></p>
+            <a href="/" style={{float:'right', textDecoration:'none', color:'black'}}>More <CgArrowLongRight /></a>
           </div>
         </div>
       </div>
