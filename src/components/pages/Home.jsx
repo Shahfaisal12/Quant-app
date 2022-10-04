@@ -5,7 +5,7 @@ import Designfuture from './Designfuture'
 import Developers from './Developers'
 import Empowered from './Empowered'
 import Explorefeature from './Explorefeature'
-import Featurefinance from './Featurefinance'
+// import Featurefinance from './Featurefinance'
 import Flowsection from './Flowsection'
 import Priopbability from './Priopbability'
 import Reducscost from './Reducscost'
@@ -22,7 +22,6 @@ const Home = () => {
     <Priopbability />
     <Developers />
     <Designfuture />
-    <Featurefinance />
     </>
   )
 }
