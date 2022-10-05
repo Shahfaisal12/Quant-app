@@ -1,3 +1,4 @@
+// import { hover } from "@testing-library/user-event/dist/hover";
 import React from "react";
 import {CgArrowLongRight} from 'react-icons/cg'
 import { Link } from "react-router-dom";
@@ -69,7 +70,7 @@ const Explorefeature = () => {
               </div>
           </div>
           <div className="">
-            <Link to='/why' style={{float:'right', textDecoration:'none', color:'black'}}>More <CgArrowLongRight /></Link>
+            <Link to='/why' className="more-button">More <CgArrowLongRight /></Link>
           </div>
         </div>
       </div>

@@ -175,6 +175,14 @@ ul li .underline:hover {
       font-size: 10px;
     }
   }
+  .more-button{
+    float: right;
+     text-decoration: none;
+      color: black;
+       &:hover{
+        color: #f15a22;
+      }
+  }
 }
 
 /////////////////////////////  Footer Section  ///////////////////////////////////////
