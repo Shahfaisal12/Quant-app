@@ -295,6 +295,7 @@ ul li .underline:hover {
   }
 
   .react-tabs__tab-list {
+    border-bottom: 0px !important;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
     .react-tabs__tab {
       list-style: none !important;
