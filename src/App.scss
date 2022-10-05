@@ -268,7 +268,7 @@ ul li .underline:hover {
     background-color: #ffffff;
     border: 0px;
     box-shadow: rgb(0 0 0 / 9%) 0px 3px 12px;
-    height: 220px;
+    height: auto;
     }
   }
 
@@ -277,11 +277,14 @@ ul li .underline:hover {
     .react-tabs__tab {
       list-style: none !important;
       font-weight: bold;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       cursor: pointer;
       &:hover {
         color: #f15a22;
       }
+    }
+    .react-tabs__tab--selected{
+      border: none;
     }
   }
 }

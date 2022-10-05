@@ -5,6 +5,7 @@ import Base from "../layout/Base";
 import Home from "../pages/Home";
 import PageNotFound from "../pages/PageNotFound";
 import Why from "../pages/Why/Why";
+// import Menu from "../pages/Why/Menu";
 
 const Routs = () => {
   return (
