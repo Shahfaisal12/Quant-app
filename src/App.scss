@@ -298,5 +298,6 @@ ul li .underline:hover {
 }
 
 .react-tabs__tab-list{
-  margin-bottom: 0px;
+  margin-bottom: 0px !important;
+  border-bottom: 0px;
 }
