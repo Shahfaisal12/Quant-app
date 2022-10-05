@@ -48,7 +48,8 @@ const Why = () => {
             </div>
           </div>
           <div className="col-md-6 pr-0">
-            <div className="img-digital-asserts py-5 px-0 position-relative">
+            <div className="img-digital-asserts py-5 px-0">
+              <div className="position-relative">
               <div className="img-digital">
                 <img
                   src="https://quant.network/assets/uploads/2022/09/Sibos-guide-mockup-2.jpg"
@@ -57,7 +58,7 @@ const Why = () => {
                 />
               </div>
               <div className="card-ara position-absolute">
-                <div className="card mt-2 mt-md-0" style={{ width: "18rem" }}>
+                <div className="card mt-2 mt-md-0" style={{ maxWidth: "18rem" }}>
                   <div className="card-body">
                     <p className="card-text">
                       <small className="text-danger">News</small>
@@ -74,6 +75,7 @@ const Why = () => {
                       <span className="badge">ENTERPRISES</span>
                     </div>
                   </div>
+                </div>
                 </div>
               </div>
             </div>

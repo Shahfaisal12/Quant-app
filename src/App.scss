@@ -236,7 +236,7 @@ ul li .underline:hover {
     }
     .card-ara {
       right: 0;
-      top: 30%;
+      top: 20%;
 
       .card {
         border-radius: 49% 0% 0% 11% / 0% 37% 10% 22%;
@@ -260,7 +260,21 @@ ul li .underline:hover {
   }
 }
 
-//////////////////////
+
+
+@media only screen and (max-width: 600px) {
+  .card-ara {
+    top: 0% !important;
+
+    .card{
+      max-width: 13rem !important;
+      max-height: 210px;
+    }
+  }
+}
+
+
+////////////////////// Nav maenu in more pages
 
 .menu-nav {
   .tab-content {

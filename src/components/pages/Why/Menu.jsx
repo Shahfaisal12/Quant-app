@@ -86,7 +86,7 @@ const Menu = () => {
     </div>
         </TabPanel> */}
         <TabList>
-          <div class="d-flex justify-content-around py-5 bg-white">
+          <div class="d-flex flex-wrap justify-content-around py-5 bg-white">
             <Tab class="p-2"> All</Tab>
             <Tab class="p-2">News</Tab>
             <Tab class="p-2">Events</Tab>
