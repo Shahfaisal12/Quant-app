@@ -234,33 +234,6 @@ const Header = () => {
                 <a className="nav-link" href="/">
                   <AiOutlineSearch />
                 </a>
-                <div className="dropdown-content">
-                  <h6 className="fw-bold mb-3">Who we serve</h6>
-                  <div className="row">
-                    <div className="col-md-4">
-                  <p style={{fontSize:'9px'}}>We empower banks, asset managers and other financial institutions; enterprises, typically with international operations; and the technology partners and fintech developers who support them.</p>
-
-                    </div>
-                    <div className="col-md-8">
-                      <div className="dropdown-list">
-                        <ul>
-                          <li>
-                            <a href="/" className="d-flex align-items-center">  Financial institutions  <HiOutlineArrowRight style={{marginLeft:'auto'}} /></a>
-                          </li>
-                          <li>
-                            <a href="/" className="d-flex align-items-center">  Enterprises  <HiOutlineArrowRight style={{marginLeft:'auto'}}/></a>
-                          </li>
-                          <li>
-                            <a href="/" className="d-flex align-items-center">  Partners  <HiOutlineArrowRight style={{marginLeft:'auto'}}/></a>
-                          </li>
-                          <li>
-                            <a href="/" className="d-flex align-items-center">  Developers  <HiOutlineArrowRight style={{marginLeft:'auto'}}/></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </li>
             </ul>
           </div>
